@@ -8,4 +8,13 @@ Mauvaise pratique :
 
 --------------------------------------------------------------------
 
-Iteration 2 : 200MB
+Iteration 2 : 280MB
+
+- Mettre en "development" dans une image de production est une erreur -> mettre en production directement
+- Mauvais ordre : copie de tout le projet avant npm install -> empêche le caching Docker efficace.
+- On devrait copier uniquement package*.json d’abord, installer, puis copier le reste.
+
+--------------------------------------------------------------------
+
+Iteration 3 : 242MB
+
