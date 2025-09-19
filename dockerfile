@@ -6,6 +6,6 @@ COPY package*.json ./
 RUN npm ci --only=production
 
 COPY . .
-EXPOSE 3000 4000 5000
-USER root
+EXPOSE 3000
+USER node
 CMD ["node", "server.js"]

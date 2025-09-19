@@ -18,3 +18,9 @@ Iteration 2 : 280MB
 
 Iteration 3 : 242MB
 
+- Suppression des expositions sur des ports inutiles.
+- Utilisateur root -> utilisateur node
+
+--------------------------------------------------------------------
+
+Iteration 4 : 240 MB
